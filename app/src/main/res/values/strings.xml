@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">DemoCameraIntent</string>
+    <string name="launch_camera">Launch Camera</string>
+    <string name="text">The issue-\nOpen Camera</string>
+</resources>
