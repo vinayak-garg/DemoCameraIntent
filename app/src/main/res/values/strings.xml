@@ -1,5 +1,18 @@
 <resources>
     <string name="app_name">DemoCameraIntent</string>
     <string name="launch_camera">Launch Camera</string>
-    <string name="text">The issue-\nOpen Camera</string>
+    <string name="title">Opening camera app in LG G3 through intent, always resets the camera quality to VGA</string>
+    <string name="text">The issue:
+        \nI am making an Android app for android OS 4.4 onwards. I am facing an issue specific to LG G3.
+        If I launch camera for capturing video through intent, the default camera app launches alright.
+        But the resolution setting of video is always set to VGA.
+        \n\nSteps to reproduce
+        \n1. Launch camera app by clicking on the button above
+        \n2. See that the camera resolution is set to VGA
+        \n3. Now exit the camera, and this app
+        \n4. Open phone\'s default camera app
+        \n5. Change the camera resolution to say 1080p
+        \n6. Now go back in our app
+        \n7. Repeat steps 1 and 2
+    </string>
 </resources>
